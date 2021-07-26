@@ -1,5 +1,68 @@
+body{
+    font-size: 25px;
+}
+/* navbar section */
 .logo-name {
     font-size:30px;
     font-weight: 700;
     color: rgba(32, 29, 29, 0.911);
+}
+.btn-search:hover{
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    border-radius: 7px;
+}
+.nav-link:hover{
+    background-color: #9932CC;
+    color: white;
+}
+/* price */
+.price{
+    color: 	#8B008B;
+}
+/* buy now button */
+.buy-now-btn{
+    background-color:#8B008B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 13px;
+    font-size: 20px;
+    margin-top: 7px;
+}
+/* image sliders carousel */
+.first-division{
+    margin-top:200px;
+    margin-bottom:100px;
+}
+.carousel-info {
+    background-color: #D8BFD8;
+}
+.carousel-inner{
+    border-radius: 20px;
+}
+/* categories */
+.cat1{
+    background-color: rgba(238, 38, 38, 0.637);
+}
+.cat2{
+    background-color: rgba(231, 231, 77, 0.925);
+}
+.cat3{
+    background-color: rgba(79, 193, 238, 0.952);
+}
+.cat1, .cat2, .cat3 {
+    border: none;
+    border-radius: 20px;
+}
+/* TinyTan section */
+#tinytan {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+/* subscribe section */
+.subscribe-section{
+    margin-top: 130px;
+    background-color: #D8BFD8;
+    border-radius:20px;
 }
